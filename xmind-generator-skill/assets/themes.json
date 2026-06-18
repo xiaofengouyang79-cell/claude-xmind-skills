@@ -1,0 +1,168 @@
+{
+  "themes": {
+    "fresh": {
+      "name": "清新自然",
+      "icon": "🌿",
+      "description": "适合学习笔记、知识梳理、生活规划",
+      "root": {
+        "svg:fill": "#059669",
+        "fo:color": "#FFFFFF",
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "18pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:font-weight": "bold"
+      },
+      "main": {
+        "svg:fill": "#D1FAE5",
+        "fo:color": "#065F46",
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "13pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:font-weight": "bold"
+      },
+      "sub": {
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "11pt",
+        "fo:color": "#374151",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#F9FAFB",
+        "border-color": "#E5E7EB",
+        "border-width": "1pt",
+        "line-color": "#9CA3AF"
+      },
+      "leaf": {
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "10pt",
+        "fo:color": "#6B7280",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#FFFFFF",
+        "border-color": "#F3F4F6",
+        "border-width": "1pt",
+        "line-color": "#D1D5DB"
+      }
+    },
+    "business": {
+      "name": "商务专业",
+      "icon": "💼",
+      "description": "适合项目规划、工作方案、汇报展示",
+      "root": {
+        "svg:fill": "#1E40AF",
+        "fo:color": "#FFFFFF",
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "18pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:font-weight": "bold"
+      },
+      "main": {
+        "svg:fill": "#DBEAFE",
+        "fo:color": "#1E40AF",
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "13pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:font-weight": "bold"
+      },
+      "sub": {
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "11pt",
+        "fo:color": "#374151",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#F9FAFB",
+        "border-color": "#E5E7EB",
+        "border-width": "1pt",
+        "line-color": "#9CA3AF"
+      },
+      "leaf": {
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "10pt",
+        "fo:color": "#6B7280",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#FFFFFF",
+        "border-color": "#F3F4F6",
+        "border-width": "1pt",
+        "line-color": "#D1D5DB"
+      }
+    },
+    "warm": {
+      "name": "温暖柔和",
+      "icon": "🌅",
+      "description": "适合健康养生、亲子教育、创意脑暴",
+      "root": {
+        "svg:fill": "#DC2626",
+        "fo:color": "#FFFFFF",
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "18pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:font-weight": "bold"
+      },
+      "main": {
+        "svg:fill": "#FEE2E2",
+        "fo:color": "#991B1B",
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "13pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:font-weight": "bold"
+      },
+      "sub": {
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "11pt",
+        "fo:color": "#374151",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#F9FAFB",
+        "border-color": "#E5E7EB",
+        "border-width": "1pt",
+        "line-color": "#9CA3AF"
+      },
+      "leaf": {
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "10pt",
+        "fo:color": "#6B7280",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#FFFFFF",
+        "border-color": "#F3F4F6",
+        "border-width": "1pt",
+        "line-color": "#D1D5DB"
+      }
+    },
+    "tech": {
+      "name": "科技冷调",
+      "icon": "🔮",
+      "description": "适合技术架构、数据分析、系统设计",
+      "root": {
+        "svg:fill": "#4F46E5",
+        "fo:color": "#FFFFFF",
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "18pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:font-weight": "bold"
+      },
+      "main": {
+        "svg:fill": "#E0E7FF",
+        "fo:color": "#3730A3",
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "13pt",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "fo:font-weight": "bold"
+      },
+      "sub": {
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "11pt",
+        "fo:color": "#374151",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#F9FAFB",
+        "border-color": "#E5E7EB",
+        "border-width": "1pt",
+        "line-color": "#9CA3AF"
+      },
+      "leaf": {
+        "fo:font-family": "Microsoft YaHei",
+        "fo:font-size": "10pt",
+        "fo:color": "#6B7280",
+        "shape-class": "org.xmind.topicShape.roundedRect",
+        "svg:fill": "#FFFFFF",
+        "border-color": "#F3F4F6",
+        "border-width": "1pt",
+        "line-color": "#D1D5DB"
+      }
+    }
+  }
+}

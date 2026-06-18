@@ -1,0 +1,145 @@
+{
+  "_comment": "XMind 内容结构示例 - 可作为输入模板参考",
+  "_usage": "将此文件作为 --input 参数传入 generate_xmind.py",
+  "_structure": [
+    {
+      "title": "一级主题标题",
+      "children": [
+        {
+          "title": "二级主题标题",
+          "children": [
+            {"title": "叶子节点标题"},
+            {"title": "叶子节点标题"}
+          ]
+        }
+      ]
+    }
+  ],
+  "example_data": [
+    {
+      "title": "项目背景",
+      "children": [
+        {
+          "title": "行业现状",
+          "children": [
+            {"title": "市场规模持续增长"},
+            {"title": "竞争格局日趋激烈"},
+            {"title": "技术创新成为关键"}
+          ]
+        },
+        {
+          "title": "公司定位",
+          "children": [
+            {"title": "核心优势分析"},
+            {"title": "差异化竞争策略"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "目标设定",
+      "children": [
+        {
+          "title": "短期目标（3个月）",
+          "children": [
+            {"title": "完成产品原型"},
+            {"title": "获取种子用户"},
+            {"title": "验证商业模式"}
+          ]
+        },
+        {
+          "title": "中期目标（6个月）",
+          "children": [
+            {"title": "产品迭代优化"},
+            {"title": "用户规模增长"},
+            {"title": "营收目标达成"}
+          ]
+        },
+        {
+          "title": "长期目标（1年）",
+          "children": [
+            {"title": "市场占有率提升"},
+            {"title": "品牌影响力扩大"},
+            {"title": "团队规模扩展"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "实施方案",
+      "children": [
+        {
+          "title": "产品策略",
+          "children": [
+            {"title": "核心功能开发"},
+            {"title": "用户体验优化"},
+            {"title": "技术架构升级"}
+          ]
+        },
+        {
+          "title": "市场策略",
+          "children": [
+            {"title": "渠道拓展"},
+            {"title": "品牌推广"},
+            {"title": "合作伙伴关系"}
+          ]
+        },
+        {
+          "title": "运营策略",
+          "children": [
+            {"title": "用户增长"},
+            {"title": "内容运营"},
+            {"title": "社群建设"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "资源保障",
+      "children": [
+        {
+          "title": "人力资源",
+          "children": [
+            {"title": "核心团队组建"},
+            {"title": "人才招聘计划"},
+            {"title": "培训体系搭建"}
+          ]
+        },
+        {
+          "title": "财务资源",
+          "children": [
+            {"title": "资金预算"},
+            {"title": "成本控制"},
+            {"title": "融资规划"}
+          ]
+        }
+      ]
+    },
+    {
+      "title": "风险控制",
+      "children": [
+        {
+          "title": "市场风险",
+          "children": [
+            {"title": "竞争加剧应对"},
+            {"title": "需求变化适应"}
+          ]
+        },
+        {
+          "title": "运营风险",
+          "children": [
+            {"title": "团队管理"},
+            {"title": "项目进度把控"}
+          ]
+        },
+        {
+          "title": "财务风险",
+          "children": [
+            {"title": "现金流管理"},
+            {"title": "成本超支预防"}
+          ]
+        }
+      ]
+    }
+  ]
+}
