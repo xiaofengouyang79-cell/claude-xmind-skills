@@ -1,0 +1,149 @@
+[
+  {
+    "title": "人生轨迹",
+    "emoji": "🏛️",
+    "children": [
+      {
+        "title": "求学清华",
+        "emoji": "🎓",
+        "children": [
+          { "title": "1928年生于湖南长沙" },
+          { "title": "清华大学电机系毕业" }
+        ]
+      },
+      {
+        "title": "主政上海",
+        "emoji": "🏙️",
+        "children": [
+          { "title": "1987–1991 上海市长 / 市委书记" },
+          { "title": "开发开放浦东、抓菜篮子工程" }
+        ]
+      },
+      {
+        "title": "执掌金融",
+        "emoji": "🏦",
+        "children": [
+          { "title": "1993–1995 国务院副总理兼央行行长" },
+          { "title": "治理通胀、实现经济软着陆" }
+        ]
+      },
+      {
+        "title": "出任总理",
+        "emoji": "👔",
+        "children": [
+          { "title": "1998–2003 国务院总理" },
+          { "title": "2026年8月逝世，享年98岁", "marker": "flag" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "经济改革",
+    "emoji": "📈",
+    "children": [
+      {
+        "title": "分税制改革（1994）",
+        "children": [
+          { "title": "重塑中央与地方财政格局", "marker": "priority-1" },
+          { "title": "为宏观调控奠定制度基础" }
+        ]
+      },
+      {
+        "title": "国企改革",
+        "children": [
+          { "title": "抓大放小、优化国有经济布局" },
+          { "title": "国企三年脱困攻坚" }
+        ]
+      },
+      {
+        "title": "金融改革",
+        "children": [
+          { "title": "剥离不良资产、推进银行改革" },
+          { "title": "强化金融监管、守住风险底线" }
+        ]
+      },
+      {
+        "title": "机构改革",
+        "children": [
+          { "title": "1998年国务院机构大幅精简" }
+        ]
+      },
+      {
+        "title": "加入WTO（2001）",
+        "marker": "priority-1",
+        "children": [
+          { "title": "推动中国融入全球经济体系" },
+          { "title": "以开放倒逼改革" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "危机应对",
+    "emoji": "🛡️",
+    "children": [
+      {
+        "title": "亚洲金融危机（1997–1998）",
+        "children": [
+          { "title": "坚持人民币不贬值" },
+          { "title": "扩大内需、稳健货币政策" }
+        ]
+      },
+      {
+        "title": "1998特大洪灾",
+        "children": [
+          { "title": "亲临一线指挥抗洪抢险" }
+        ]
+      },
+      {
+        "title": "1993经济过热",
+        "children": [
+          { "title": "宏观调控实现经济软着陆" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "治政风骨",
+    "emoji": "⚖️",
+    "children": [
+      { "title": "铁腕改革", "children": [ { "title": "雷厉风行、敢于碰硬" } ] },
+      { "title": "实事求是", "children": [ { "title": "直言敢言、不尚空谈" } ] },
+      { "title": "清廉自守", "children": [ { "title": "严于律己、反腐倡廉" } ] },
+      {
+        "title": "就职誓言",
+        "note": "不管前面是地雷阵还是万丈深渊，我将勇往直前，义无反顾，鞠躬尽瘁，死而后已。",
+        "marker": "star",
+        "children": [
+          { "title": "1998年就任总理记者招待会" }
+        ]
+      }
+    ]
+  },
+  {
+    "title": "现代启示",
+    "emoji": "💡",
+    "children": [
+      {
+        "title": "改革精神",
+        "children": [ { "title": "逢山开路、遇水架桥的魄力" } ]
+      },
+      {
+        "title": "责任担当",
+        "children": [ { "title": "功成不必在我、功成必定有我" } ]
+      },
+      {
+        "title": "专业主义",
+        "children": [ { "title": "以专业定力应对复杂危机" } ]
+      },
+      {
+        "title": "家国情怀",
+        "children": [ { "title": "鞠躬尽瘁、死而后已" } ]
+      },
+      {
+        "title": "为人为学",
+        "children": [ { "title": "清华学风、求真务实" } ]
+      }
+    ]
+  }
+]

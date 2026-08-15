@@ -1,168 +1,86 @@
 {
+  "version": "3.0",
+  "font_family": "Microsoft YaHei",
+  "font_sizes": { "root": "20pt", "main": "14pt", "sub": "12pt", "leaf": "11pt", "deep": "10pt" },
+  "line_class": "org.xmind.branchConnection.curved",
   "themes": {
-    "fresh": {
-      "name": "清新自然",
-      "icon": "🌿",
-      "description": "适合学习笔记、知识梳理、生活规划",
-      "root": {
-        "svg:fill": "#059669",
-        "fo:color": "#FFFFFF",
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "18pt",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "fo:font-weight": "bold"
-      },
-      "main": {
-        "svg:fill": "#D1FAE5",
-        "fo:color": "#065F46",
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "13pt",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "fo:font-weight": "bold"
-      },
-      "sub": {
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "11pt",
-        "fo:color": "#374151",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "svg:fill": "#F9FAFB",
-        "border-color": "#E5E7EB",
-        "border-width": "1pt",
-        "line-color": "#9CA3AF"
-      },
-      "leaf": {
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "10pt",
-        "fo:color": "#6B7280",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "svg:fill": "#FFFFFF",
-        "border-color": "#F3F4F6",
-        "border-width": "1pt",
-        "line-color": "#D1D5DB"
-      }
-    },
     "business": {
-      "name": "商务专业",
-      "icon": "💼",
-      "description": "适合项目规划、工作方案、汇报展示",
-      "root": {
-        "svg:fill": "#1E40AF",
-        "fo:color": "#FFFFFF",
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "18pt",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "fo:font-weight": "bold"
-      },
-      "main": {
-        "svg:fill": "#DBEAFE",
-        "fo:color": "#1E40AF",
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "13pt",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "fo:font-weight": "bold"
-      },
-      "sub": {
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "11pt",
-        "fo:color": "#374151",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "svg:fill": "#F9FAFB",
-        "border-color": "#E5E7EB",
-        "border-width": "1pt",
-        "line-color": "#9CA3AF"
-      },
-      "leaf": {
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "10pt",
-        "fo:color": "#6B7280",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "svg:fill": "#FFFFFF",
-        "border-color": "#F3F4F6",
-        "border-width": "1pt",
-        "line-color": "#D1D5DB"
-      }
+      "name": "商务·沉稳蓝", "icon": "💼", "family": "classic",
+      "description": "汇报、方案、正式场合：深蓝主色 + 多色分支配色，稳重大气",
+      "root": "#1E3A8A", "paper": "#F8FAFC",
+      "accents": ["#2563EB", "#0284C7", "#7C3AED", "#DB2777", "#D97706", "#059669", "#475569"]
+    },
+    "fresh": {
+      "name": "清新·自然绿", "icon": "🌿", "family": "classic",
+      "description": "学习笔记、知识梳理、健康生活：翠绿 + 自然多彩分支",
+      "root": "#065F46", "paper": "#F0FDF4",
+      "accents": ["#059669", "#0D9488", "#16A34A", "#65A30D", "#0284C7", "#7C3AED", "#D97706"]
     },
     "warm": {
-      "name": "温暖柔和",
-      "icon": "🌅",
-      "description": "适合健康养生、亲子教育、创意脑暴",
-      "root": {
-        "svg:fill": "#DC2626",
-        "fo:color": "#FFFFFF",
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "18pt",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "fo:font-weight": "bold"
-      },
-      "main": {
-        "svg:fill": "#FEE2E2",
-        "fo:color": "#991B1B",
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "13pt",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "fo:font-weight": "bold"
-      },
-      "sub": {
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "11pt",
-        "fo:color": "#374151",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "svg:fill": "#F9FAFB",
-        "border-color": "#E5E7EB",
-        "border-width": "1pt",
-        "line-color": "#9CA3AF"
-      },
-      "leaf": {
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "10pt",
-        "fo:color": "#6B7280",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "svg:fill": "#FFFFFF",
-        "border-color": "#F3F4F6",
-        "border-width": "1pt",
-        "line-color": "#D1D5DB"
-      }
+      "name": "温暖·活力橙", "icon": "🌅", "family": "classic",
+      "description": "亲子、创意、激励：暖橙 + 明快分支，亲切有活力",
+      "root": "#7C2D12", "paper": "#FFFBEB",
+      "accents": ["#D97706", "#EA580C", "#DC2626", "#DB2777", "#7C3AED", "#0D9488", "#475569"]
     },
     "tech": {
-      "name": "科技冷调",
-      "icon": "🔮",
-      "description": "适合技术架构、数据分析、系统设计",
-      "root": {
-        "svg:fill": "#4F46E5",
-        "fo:color": "#FFFFFF",
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "18pt",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "fo:font-weight": "bold"
-      },
-      "main": {
-        "svg:fill": "#E0E7FF",
-        "fo:color": "#3730A3",
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "13pt",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "fo:font-weight": "bold"
-      },
-      "sub": {
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "11pt",
-        "fo:color": "#374151",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "svg:fill": "#F9FAFB",
-        "border-color": "#E5E7EB",
-        "border-width": "1pt",
-        "line-color": "#9CA3AF"
-      },
-      "leaf": {
-        "fo:font-family": "Microsoft YaHei",
-        "fo:font-size": "10pt",
-        "fo:color": "#6B7280",
-        "shape-class": "org.xmind.topicShape.roundedRect",
-        "svg:fill": "#FFFFFF",
-        "border-color": "#F3F4F6",
-        "border-width": "1pt",
-        "line-color": "#D1D5DB"
-      }
+      "name": "科技·未来靛", "icon": "🔮", "family": "classic",
+      "description": "技术架构、数据、系统设计：靛蓝紫 + 冷色科技分支",
+      "root": "#312E81", "paper": "#EEF2FF",
+      "accents": ["#4F46E5", "#7C3AED", "#0891B2", "#2563EB", "#059669", "#D97706", "#DB2777"]
+    },
+    "rose": {
+      "name": "温柔·玫瑰粉", "icon": "🌷", "family": "classic",
+      "description": "女性向、情感、美学：玫瑰粉 + 柔和多彩分支",
+      "root": "#9D174D", "paper": "#FDF2F8",
+      "accents": ["#BE185D", "#DB2777", "#7C3AED", "#D97706", "#059669", "#2563EB", "#475569"]
+    },
+    "slate": {
+      "name": "极简·石墨灰", "icon": "⬛", "family": "classic",
+      "description": "严肃、学术、正式文档：石墨灰底 + 克制的强调色",
+      "root": "#1F2937", "paper": "#FFFFFF",
+      "accents": ["#374151", "#475569", "#0284C7", "#7C3AED", "#059669", "#D97706", "#DC2626"]
+    },
+    "mondo": {
+      "name": "蒙多·复古丝网", "icon": "🎬", "family": "mondo-poster",
+      "description": "Mondo 海报风：丝网印刷、扁平色块、复古双色、留白叙事（源自 qiaomu-mondo-poster-design）",
+      "root": "#1C1917", "paper": "#FDF6EC",
+      "accents": ["#EA580C", "#D97706", "#0D9488", "#DB2777", "#7C2D12", "#0891B2", "#DC2626"]
+    },
+    "editorial": {
+      "name": "编辑·杂志留白", "icon": "📰", "family": "editorial",
+      "description": "杂志排版风：白纸黑字 + 一个强强调色、大量留白、直角边框（源自 frontend-design）",
+      "root": "#111827", "paper": "#FFFFFF", "shape": "org.xmind.topicShape.rect",
+      "accents": ["#111827", "#4B5563", "#6B7280", "#B91C1C", "#D97706", "#0F766E", "#1D4ED8"]
+    },
+    "brutalist": {
+      "name": "野兽派·硬朗", "icon": "🧱", "family": "brutalist",
+      "description": "野兽派：纯原色、黑底白字、直角无圆角、高对比（源自 frontend-design）",
+      "root": "#000000", "paper": "#FFFFFF", "shape": "org.xmind.topicShape.rect",
+      "accents": ["#E11D48", "#2563EB", "#FACC15", "#16A34A", "#7C3AED", "#111111", "#F97316"]
+    },
+    "neon": {
+      "name": "复古未来·霓虹", "icon": "🌆", "family": "neon",
+      "description": "Synthwave 霓虹风：暗底 + 霓虹色分支（源自 frontend-design）",
+      "root": "#1E1B4B", "paper": "#0F172A",
+      "accents": ["#F0ABFC", "#818CF8", "#22D3EE", "#F472B6", "#A78BFA", "#FDE047", "#FB923C"]
+    },
+    "ink": {
+      "name": "手绘·小黑线稿", "icon": "✒️", "family": "hand-drawn",
+      "description": "小黑怪诞风：白底黑线稿、少量红橙蓝批注、大量留白、线框无填充（源自 ian-xiaohei-illustrations）",
+      "root": "#111827", "paper": "#FFFFFF", "fill_mode": "line",
+      "accents": ["#111827", "#4B5563", "#EF4444", "#F97316", "#3B82F6", "#6B7280", "#111827"]
+    },
+    "spectrum": {
+      "name": "生成·涌现色谱", "icon": "🎨", "family": "generative",
+      "description": "生成艺术风：沿分支顺序渐变的完整色谱、参数化色阶（源自 algorithmic-art）",
+      "root": "#1E293B", "paper": "#F8FAFC",
+      "accents": ["#F43F5E", "#F97316", "#F59E0B", "#22C55E", "#06B6D4", "#3B82F6", "#8B5CF6"]
+    },
+    "gallery": {
+      "name": "画廊·几何静默", "icon": "🖼️", "family": "gallery",
+      "description": "瑞士/Albers 色场风：克制的原色色块、网格秩序、大量负空间（源自 canvas-design）",
+      "root": "#1E293B", "paper": "#FAFAF9", "shape": "org.xmind.topicShape.rect",
+      "accents": ["#E11D48", "#1D4ED8", "#F59E0B", "#0F766E", "#64748B", "#111827", "#7C3AED"]
     }
   }
 }

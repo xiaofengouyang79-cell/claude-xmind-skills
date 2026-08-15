@@ -2,13 +2,28 @@
 
 三套 Claude Code XMind 思维导图技能包，帮助你在 Claude Code 中快速创建专业的 XMind 思维导图。
 
-## 📦 包含的技能
+## 📦 包含的技能（各司其职，按需选择）
 
-| 技能 | 说明 | 核心功能 |
-|------|------|----------|
-| **xmind** | 主技能 — 通过 JSON 结构创建 .xmind 文件 | 基础思维导图、流程图、甘特图、逻辑图 |
-| **xmind-generator-skill** | 增强生成器 — 支持更多高级格式 | 主题样式、模板系统、高级布局 |
-| **xmind-templates** | 模板与配色库 — 30 套配色 + 6 类场景模板 | 配色速查、场景模板、风格推荐 |
+| 技能 | 定位 | 何时用 |
+|------|------|--------|
+| **xmind-generator-skill** ⭐ | **设计驱动主技能** — 13 套主题 · 8 大设计流派 · 自动彩虹分支配色/智能文字对比 | 日常思维导图、知识梳理、读书笔记、成长/学习路径、人物生平（**首选**）|
+| **xmind** | 高级格式 — 流程图、甘特图、关系线、自由定位、任务依赖 | 流程图 / 逻辑图 / 项目管理 / 甘特图 |
+| **xmind-templates** | 模板与配色参考库 — 30 套配色 + 6 类场景模板 | 查阅配色速查表、场景模板 |
+
+> **推荐路径**：日常做思维导图 → 用 `xmind-generator-skill`；需要流程图/Gantt → 用 `xmind`；需要配色灵感 → 查 `xmind-templates`。
+
+## 🎨 13 套主题 · 8 大设计流派（xmind-generator-skill）
+
+| 设计流派 | 主题 | 设计来源 |
+|----------|------|----------|
+| 经典六色 | `business` `fresh` `warm` `tech` `rose` `slate` | 内置 |
+| 蒙多海报 | `mondo`（丝网复古双色）| Mondo 海报风 |
+| 编辑杂志 | `editorial`（白纸黑字+一个强调色）| frontend-design |
+| 野兽派 | `brutalist`（纯原色·直角）| frontend-design |
+| 复古霓虹 | `neon`（暗底霓虹）| frontend-design |
+| 手绘线稿 | `ink`（线框无填充）| ian-xiaohei-illustrations |
+| 生成艺术 | `spectrum`（色谱沿序涌现）| algorithmic-art |
+| 画廊色场 | `gallery`（几何静默）| canvas-design |
 
 ## 🚀 安装方法
 
@@ -16,43 +31,41 @@
 
 ```bash
 # Linux / macOS
-cp -r xmind ~/.claude/skills/
 cp -r xmind-generator-skill ~/.claude/skills/
+cp -r xmind ~/.claude/skills/
 cp -r xmind-templates ~/.claude/skills/
 
 # Windows (PowerShell)
-Copy-Item -Recurse xmind "$env:USERPROFILE\.claude\skills\"
 Copy-Item -Recurse xmind-generator-skill "$env:USERPROFILE\.claude\skills\"
+Copy-Item -Recurse xmind "$env:USERPROFILE\.claude\skills\"
 Copy-Item -Recurse xmind-templates "$env:USERPROFILE\.claude\skills\"
 ```
 
 ## 📖 使用方法
 
-在 Claude Code 中输入 `/xmind` 即可启动，然后告诉 Claude 你想创建的思维导图内容。
+### 日常思维导图（xmind-generator-skill）
 
-### 支持的类型
+在 Claude Code 中直接说「帮我做一个关于 XX 的思维导图」，或使用命令行：
 
-- 📚 **读书笔记** — 章节结构和要点梳理
-- 🎓 **课程/教案** — 教学内容、知识点
-- 📊 **产品分析** — 竞品对比、功能拆解
-- 🗂️ **项目规划** — 任务分解、甘特图
-- 🔄 **流程图** — 算法逻辑、决策流程
-- 🏢 **组织架构** — 团队结构、角色分工
-- 💡 **头脑风暴** — 创意发散、问题分析
+```bash
+py -3 xmind-generator-skill/scripts/generate_xmind.py \
+  --title "主题" --theme spectrum --input content.json --output output.xmind
+py -3 xmind-generator-skill/scripts/generate_xmind.py --list-themes   # 查 13 套主题
+```
 
-### 30 套配色方案
+### 流程图 / 甘特图（xmind）
 
-| 场景 | 推荐风格 | 主色 |
-|------|----------|------|
-| 数码/科技 | 靛蓝紫、深青、烟紫 | `#4F46E5` `#0E7490` `#7E22CE` |
-| 商务/正式 | 深海蓝、钴蓝、石墨灰 | `#1E40AF` `#1D4ED8` `#374151` |
-| 学习/知识 | 天空蓝、翡翠绿、松石绿 | `#0284C7` `#059669` `#0D9488` |
-| 活力/运动 | 朱砂橙、琥珀橙、珊瑚红 | `#EA580C` `#D97706` `#DC2626` |
-| 创意/艺术 | 薰衣草紫、暗紫、茄紫红 | `#7C3AED` `#6B21A8` `#A21CAF` |
+输入 `/xmind`，用 `create_xmind.py` 处理 `{path, style, sheets}` 格式的 JSON，支持 relationships、callouts、boundaries、task 依赖（Gantt）。
+
+## 支持的类型
+
+- 📚 **读书笔记** / 🎓 **课程教案** / 📊 **产品分析**
+- 🗂️ **项目规划·甘特图** / 🔄 **流程图·逻辑图** / 🏢 **组织架构**
+- 🧭 **成长路径·学习路径** / 👤 **人物生平·历史脉络** / 💡 **头脑风暴**
 
 ## ⚙️ 依赖
 
-- Python 3.6+
+- Python 3.6+（无第三方依赖）
 - XMind 软件（用于打开生成的 .xmind 文件）
 
 ## 📄 许可
